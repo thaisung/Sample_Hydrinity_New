@@ -446,13 +446,13 @@ nav { display: flex; align-items: center; gap: 26px; }
   text-decoration: none;
   color: var(--ink);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   padding: 11px 13px;
   border-radius: var(--r-md);
   transition: var(--ease);
 }
 .mobile-nav-links a:hover { background: var(--cream-mid); color: var(--navy); }
-.mobile-nav-links a i { width: 16px; text-align: center; color: var(--navy); font-size: 13px; }
+.mobile-nav-links a i { width: 20px; text-align: center; color: var(--navy); font-size: 15px; }
 .mobile-acc-item { margin-bottom: 2px; }
 .mobile-accordion-trigger {
   width: 100%;
@@ -460,19 +460,19 @@ nav { display: flex; align-items: center; gap: 26px; }
   background: none; border: none; cursor: pointer;
   color: var(--ink);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   padding: 11px 13px;
   border-radius: var(--r-md);
   transition: var(--ease); text-align: left;
 }
 .mobile-accordion-trigger:hover { background: var(--cream-mid); color: var(--navy); }
 .mobile-accordion-title { display: flex; align-items: center; gap: 11px; }
-.mobile-accordion-title i { width: 16px; text-align: center; color: var(--navy); font-size: 13px; }
-.mobile-accordion-trigger .chevron { font-size: 10px; color: var(--ink-light); transition: transform .25s; }
+.mobile-accordion-title i { width: 20px; text-align: center; color: var(--navy); font-size: 15px; }
+.mobile-accordion-trigger .chevron { font-size: 11px; color: var(--ink-light); transition: transform .25s; }
 .mobile-acc-item.open .chevron { transform: rotate(180deg); color: var(--navy); }
 .mobile-submenu { max-height: 0; overflow: hidden; transition: max-height .3s; padding-left: 10px; }
 .mobile-acc-item.open .mobile-submenu { max-height: 280px; }
-.mobile-submenu a { font-size: 13px; color: var(--ink-mid); padding: 8px 12px; }
+.mobile-submenu a { font-size: 14px; color: var(--ink-mid); padding: 8px 12px; }
 .mobile-nav-phone {
   display: flex; align-items: center; justify-content: center; gap: 9px;
   background: linear-gradient(135deg, var(--navy), var(--navy-mid));
@@ -698,7 +698,7 @@ nav { display: flex; align-items: center; gap: 26px; }
   gap: var(--space-sm);
   padding: 22px 16px 16px;
   background: linear-gradient(165deg, rgba(15,35,64,.12) 0%, rgba(34,85,164,.09) 100%);
-  border: 1px solid rgba(15,35,64,.2);
+  border: none;
   border-radius: var(--r-lg);
   box-shadow: 0 8px 26px rgba(15,35,64,.12);
 }
@@ -1564,10 +1564,10 @@ nav { display: flex; align-items: center; gap: 26px; }
           <i class="fas fa-chevron-down chevron"></i>
         </button>
         <div class="mobile-submenu">
-          <a href="/about-us"><i class="fas fa-circle-info"></i> Về chúng tôi</a>
-          <a href="/vision-mission"><i class="fas fa-bullseye"></i> Tầm nhìn và sứ mệnh</a>
-          <a href="/news-awards"><i class="fas fa-newspaper"></i> Tin tức và giải thưởng</a>
-          <a href="/contact"><i class="fas fa-envelope"></i> Liên hệ</a>
+          <a href="/about-us">Về chúng tôi</a>
+          <a href="/vision-mission">Tầm nhìn và sứ mệnh</a>
+          <a href="/news-awards">Tin tức và giải thưởng</a>
+          <a href="/contact">Liên hệ</a>
         </div>
       </li>
       <li><a href="/products-home"><i class="fas fa-box"></i> Sản phẩm</a></li>
@@ -1578,8 +1578,8 @@ nav { display: flex; align-items: center; gap: 26px; }
           <i class="fas fa-chevron-down chevron"></i>
         </button>
         <div class="mobile-submenu">
-          <a href="/north-partner"><i class="fas fa-location-dot"></i> Đối tác miền Bắc</a>
-          <a href="/southern-partner"><i class="fas fa-location-dot"></i> Đối tác miền Nam</a>
+          <a href="/north-partner">Đối tác miền Bắc</a>
+          <a href="/southern-partner">Đối tác miền Nam</a>
         </div>
       </li>
       <li><a href="/mineral-research"><i class="fas fa-flask"></i> Nghiên cứu lâm sàng</a></li>
