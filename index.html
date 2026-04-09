@@ -873,8 +873,9 @@ nav { display: flex; align-items: center; gap: 26px; }
 .mid-strip-card {
   flex: 0 0 calc((100% - 36px) / 3);
   aspect-ratio: 1/1; border-radius: var(--r-lg);
-  overflow: hidden; border: 1px solid var(--border);
-  box-shadow: var(--shadow-md); position: relative;
+  overflow: hidden; border: none;
+  background: transparent;
+  box-shadow: none; position: relative;
 }
 .mid-strip-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .strip-dots { display: flex; justify-content: center; gap: 8px; margin-top: 18px; }
@@ -925,7 +926,7 @@ nav { display: flex; align-items: center; gap: 26px; }
   background: var(--white);
   border-radius: var(--r-md);
   overflow: visible;
-  border: 1px solid var(--border);
+  border: none;
   position: relative;
   z-index: 1;
   transition: var(--ease);
@@ -1145,7 +1146,7 @@ nav { display: flex; align-items: center; gap: 26px; }
 .blog-card {
   background: var(--white); border-radius: var(--r-md);
   display: flex; flex-direction: column;
-  overflow: hidden; border: 1px solid var(--border); transition: var(--ease);
+  overflow: hidden; border: none; transition: var(--ease);
 }
 .blog-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-xl); border-color: transparent; }
 .blog-img { height: 196px; overflow: hidden; }
