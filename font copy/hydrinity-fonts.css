@@ -1,0 +1,40 @@
+/* Local fonts loaded from cosbeauty.com.vn source set */
+@font-face {
+  font-family: 'helveticaneue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./helveticaneue.woff2') format('woff2'),
+       url('./helveticaneue.woff') format('woff'),
+       url('./helveticaneue.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'helveticaneue';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./helveticaneueitalic.woff2') format('woff2'),
+       url('./helveticaneueitalic.woff') format('woff'),
+       url('./helveticaneueitalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'helveticaneue';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./helveticaneuemedium.woff2') format('woff2'),
+       url('./helveticaneuemedium.woff') format('woff'),
+       url('./helveticaneuemedium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'helveticaneuemedium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./helveticaneuemedium.woff2') format('woff2'),
+       url('./helveticaneuemedium.woff') format('woff'),
+       url('./helveticaneuemedium.ttf') format('truetype');
+}

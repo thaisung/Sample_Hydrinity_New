@@ -1,0 +1,8 @@
+﻿alegreya-vn-400.ttf	https://fonts.gstatic.com/s/alegreya/v39/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNG9hUI_A.ttf
+alegreya-vn-500.ttf	https://fonts.gstatic.com/s/alegreya/v39/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGxBUI_A.ttf
+alegreya-vn-700.ttf	https://fonts.gstatic.com/s/alegreya/v39/4UacrEBBsBhlBjvfkQjt71kZfyBzPgNGERII_A.ttf
+figtree-vn-400-italic.ttf	https://fonts.gstatic.com/s/figtree/v9/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A7YdyEU.ttf
+figtree-vn-700-italic.ttf	https://fonts.gstatic.com/s/figtree/v9/_Xm9-HUzqDCFdgfMm4GnA4aZFrUvtOK3A1EayEU.ttf
+figtree-vn-400.ttf	https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QF5e.ttf
+figtree-vn-500.ttf	https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQF5e.ttf
+figtree-vn-700.ttf	https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR15e.ttf
