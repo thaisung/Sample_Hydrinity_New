@@ -1,40 +1,131 @@
-/* Local fonts loaded from cosbeauty.com.vn source set */
+﻿/* Hydrinity fonts (Vietnamese-supporting local set)
+   Source families used by hydrinity.com: Figtree + Alegreya
+   Localized replacement loaded from Google Fonts and self-hosted */
+
+/* ===== Figtree (body/nav) ===== */
 @font-face {
-  font-family: 'helveticaneue';
+  font-family: 'FigtreeVN';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('./helveticaneue.woff2') format('woff2'),
-       url('./helveticaneue.woff') format('woff'),
-       url('./helveticaneue.ttf') format('truetype');
+  src: url('./figtree-vn-400.ttf') format('truetype');
 }
-
 @font-face {
-  font-family: 'helveticaneue';
+  font-family: 'FigtreeVN';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./figtree-vn-500.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'FigtreeVN';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./figtree-vn-700.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'FigtreeVN';
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('./helveticaneueitalic.woff2') format('woff2'),
-       url('./helveticaneueitalic.woff') format('woff'),
-       url('./helveticaneueitalic.ttf') format('truetype');
+  src: url('./figtree-vn-400-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'FigtreeVN';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./figtree-vn-700-italic.ttf') format('truetype');
 }
 
+/* Optional direct family aliases */
 @font-face {
-  font-family: 'helveticaneue';
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./figtree-vn-400.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('./helveticaneuemedium.woff2') format('woff2'),
-       url('./helveticaneuemedium.woff') format('woff'),
-       url('./helveticaneuemedium.ttf') format('truetype');
+  src: url('./figtree-vn-500.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./figtree-vn-700.ttf') format('truetype');
 }
 
+/* ===== MRCH-NewYork (headings) ===== */
 @font-face {
-  font-family: 'helveticaneuemedium';
+  font-family: 'MRCH-NewYork';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./MRCH-NewYork.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MRCH-NewYork';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('./helveticaneuemedium.woff2') format('woff2'),
-       url('./helveticaneuemedium.woff') format('woff'),
-       url('./helveticaneuemedium.ttf') format('truetype');
+  src: url('./MRCH-NewYork.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MRCH-NewYork';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./MRCH-NewYork.ttf') format('truetype');
+}
+
+/* ===== SVN-Archattes (selected headings) ===== */
+@font-face {
+  font-family: 'SVN-Archattes';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./SVN-Archattes.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SVN-Archattes';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./SVN-Archattes.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SVN-Archattes';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./SVN-Archattes.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./alegreya-vn-400.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./alegreya-vn-500.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./alegreya-vn-700.ttf') format('truetype');
 }
