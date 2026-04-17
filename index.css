@@ -236,7 +236,10 @@ button { font-family: inherit; }
   z-index: 1000;
   padding: 18px 0;
   background: rgba(255,255,255,.04);
-  transition: var(--ease);
+  transition: padding .3s cubic-bezier(.4,0,.2,1), background .3s cubic-bezier(.4,0,.2,1), box-shadow .3s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 .header.scrolled {
   background: rgba(249,246,241,.97);
