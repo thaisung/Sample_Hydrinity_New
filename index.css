@@ -1799,7 +1799,7 @@ nav { display: flex; align-items: center; gap: 26px; }
    RESPONSIVE – MOBILE
    ══════════════════════════════════════════════════════════════ */
 @media (max-width: 680px) {
-  :root { --space-2xl: 48px; --space-xl: 32px; --space-lg: 28px; }
+  :root { --space-2xl: 36px; --space-xl: 24px; --space-lg: 20px; --space-md: 16px; }
   .hero-badge { font-size: 10px; }
   .categories-section .section-header h2,
   .mid-strip .strip-title,
@@ -1827,8 +1827,7 @@ nav { display: flex; align-items: center; gap: 26px; }
   .cat-card { min-height: 170px; height: auto; }
   .mid-strip-card { flex: 0 0 100%; }
   .products-grid { grid-template-columns: 1fr; gap: 14px; }
-  .product-bottom-row { flex-wrap: wrap; gap: 8px; }
-  .product-price { flex-basis: 100%; }
+  .product-bottom-row { gap: 8px; }
   .blog-grid     { grid-template-columns: 1fr; gap: 14px; }
   .test-grid     { grid-template-columns: 1fr; gap: 14px; }
   .cta-form { flex-direction: column; }
@@ -1836,7 +1835,7 @@ nav { display: flex; align-items: center; gap: 26px; }
   .footer-bottom { flex-direction: column; text-align: center; }
   .floating-contact { right: 12px; }
   .scroll-top { right: 12px; }
-  .section-header { margin-bottom: 22px; }
+  .section-header { margin-bottom: 18px; }
   .search-modal-panel { width: calc(100% - 16px); max-height: calc(100vh - 20px); border-radius: 14px; }
   .search-modal-head { padding: 13px 14px; }
   .search-modal-head h3 { font-size: 22px; }
